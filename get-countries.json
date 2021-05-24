@@ -1,4 +1,4 @@
-﻿{
+{
   "method": "GET",
   "url": "https://api.print.io/api/v/5/source/api/countries/",
   "httpVersion": "HTTP/1.1",
