@@ -1,0 +1,21 @@
+{
+  "method": "POST",
+  "url": "https://api.print.io/api/v/5/source/api/priceestimate/",
+  "httpVersion": "HTTP/1.1",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "queryString": [
+    {
+      "name": "recipeid",
+      "value": "f255af6f-9614-4fe2-aa8b-1b77b936d9d6"
+    }
+  ],
+  "postData": {
+    "mimeType": "application/json",
+    "text": "{\"Payment\":{\"CurrencyCode\":\"USD\"},\"ShipToAddress\":{\"Line1\":\"222 broadway\",\"PostalCode\":\"10038\",\"State\":\"NY\",\"CountryCode\":\"US\",\"City\":\"New York\"},\"CouponCode\": [\"coupon_code_1\",\"coupon_code_2\"]}"
+  }
+}
