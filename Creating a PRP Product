@@ -1,0 +1,21 @@
+{
+  "method": "POST",
+  "url": "https://api.print.io/api/v/5/source/api/preconfiguredproducts/",
+  "httpVersion": "HTTP/1.1",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "queryString": [
+    {
+      "name": "recipeid",
+      "value": "f255af6f-9614-4fe2-aa8b-1b77b936d9d6"
+    }
+  ],
+  "postData": {
+    "mimeType": "application/json; charset=utf-8",
+    "text": "{\n\n  \"Sku\": \"my-prp-sku-1\",\n\n  \"Name\": \"Pet Canvas\",\n\n  \"Description\": \"Funny pet canvas\",\n  \"Items\": [\n    {\n      \"ProductId\": 43,\n      \"ProductVariantSku\": \"CanvsWrp-ImgWrp-10x10\",\n      \"Preconfigurations\": [\n        {\n          \"Url\": \"https://placekitten.com/3000/3000\"\n        }\n      ]\n    }\n  ],\n  \"Images\": [\n    {\n      \"Url\": \"https://placekitten.com/3000/3000\"}"
+  }
+}
