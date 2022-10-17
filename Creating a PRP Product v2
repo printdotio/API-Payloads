@@ -16,7 +16,7 @@
   ],
   "postData": {
     "mimeType": "application/json; charset=utf-8",
-    "text": "{
+    "text": {
     "Sku": "Test-J-3-Coaster-375x375-4Set",
     "Name": "Test-J-3",
     "Description": "Test space id 3",
@@ -71,6 +71,6 @@
             "Id": "generated-preview"
         }
     ]
-}"
+}
   }
 }
