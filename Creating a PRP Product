@@ -16,6 +16,6 @@
   ],
   "postData": {
     "mimeType": "application/json; charset=utf-8",
-    "text": "{\n\n  \"Sku\": \"my-prp-sku-1\",\n\n  \"Name\": \"Pet Canvas\",\n\n  \"Description\": \"Funny pet canvas\",\n  \"Items\": [\n    {\n      \"ProductId\": 43,\n      \"ProductVariantSku\": \"CanvsWrp-ImgWrp-10x10\",\n      \"Preconfigurations\": [\n        {\n          \"Url\": \"https://placekitten.com/3000/3000\"\n        }\n      ]\n    }\n  ],\n  \"Images\": [\n    {\n      \"Url\": \"https://placekitten.com/3000/3000\"}"
+    "text": ""
   }
 }
