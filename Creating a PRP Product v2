@@ -1,54 +1,21 @@
-"Sku": "Test-J-3-Coaster-375x375-4Set",
-    "Name": "Test-J-3",
-    "Description": "Test space id 3",
-    "Items": [
-        {
-            "ProductId": 67,
-            "ProductVariantSku": "Coaster-375x375-4Set",
-            "TemplateName": "Single",
-            "Preconfigurations": [
-                {
-                    "SpaceDesc": "1st Coaster",
-                    "SpaceId": "2BEDF",
-                    "Url": "https://appassets.azureedge.net/temp/e9aaccbecb2d4cb0880009e899c92e1atest.png"
-                },
-                {
-                    "SpaceDesc": "2nd Coaster",
-                    "SpaceId": "D0DD1",
-                    "Url": "https://appassets.azureedge.net/temp/0ec0daba2f224a5594beb9fcf570175dtest.png"
-                },
-                {
-                    "SpaceDesc": "3rd Coaster",
-                    "SpaceId": "3B0FD",
-                    "Url": "https://appassets.azureedge.net/temp/8c5118b01d0248319fb3219b258a9364test.png"
-                },
-                {
-                    "SpaceDesc": "4th Coaster",
-                    "SpaceId": "98905",
-                    "Url": "https://appassets.azureedge.net/temp/1e16df18f4484ec5b7d3e72458d0523etest.png"
-                }
-            ]
-        }
-    ],
-    "Images": [
-        {
-            "Url": "https://appassets.azureedge.net/temp/e9aaccbecb2d4cb0880009e899c92e1atest.png",
-            "Index": 0
-        },
-        {
-            "Url": "https://appassets.azureedge.net/temp/0ec0daba2f224a5594beb9fcf570175dtest.png",
-            "Index": 1
-        },
-        {
-            "Url": "https://appassets.azureedge.net/temp/8c5118b01d0248319fb3219b258a9364test.png",
-            "Index": 2
-        },
-        {
-            "Url": "https://appassets.azureedge.net/temp/1e16df18f4484ec5b7d3e72458d0523etest.png",
-            "Index": 3
-        },
-        {
-            "Url": "https://gtn-imgmanip-v2-cdn.azureedge.net/staging/preview/e59003e5-9b6e-4861-8122-a069eac3871d/e8d6805714d11282644d27aaf49f0e57.png",
-            "Id": "generated-preview"
-        }
-    ]
+{
+  "method": "POST",
+  "url": "https://api.print.io/api/v/5/source/api/preconfiguredproducts/",
+  "httpVersion": "HTTP/1.1",
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "queryString": [
+    {
+      "name": "recipeid",
+      "value": "f255af6f-9614-4fe2-aa8b-1b77b936d9d6"
+    }
+  ],
+  "postData": {
+    "mimeType": "application/json; charset=utf-8",
+    "text": ""
+  }
+}
