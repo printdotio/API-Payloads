@@ -16,39 +16,6 @@
   ],
   "postData": {
     "mimeType": "application/json; charset=utf-8",
-    "text": {
-      "Sku": "Test-J-3-Coaster-375x375-4Set",
-      "Name": "Test-J-3",
-      "Description": "Test space id 3",
-      "Items": [
-        {
-           "ProductId": 67,
-           "ProductVariantSku": "Coaster-375x375-4Set",
-           "TemplateName": "Single",
-           "Preconfigurations": [
-               {
-                   "SpaceDesc": "1st Coaster",
-                   "SpaceId": "2BEDF",
-                   "Url": "https://appassets.azureedge.net/temp/e9aaccbecb2d4cb0880009e899c92e1atest.png"
-               },
-               {
-                   "SpaceDesc": "2nd Coaster",
-                   "SpaceId": "D0DD1",
-                   "Url": "https://appassets.azureedge.net/temp/0ec0daba2f224a5594beb9fcf570175dtest.png"
-               },
-               {
-                   "SpaceDesc": "3rd Coaster",
-                   "SpaceId": "3B0FD",
-                   "Url": "https://appassets.azureedge.net/temp/8c5118b01d0248319fb3219b258a9364test.png"
-               },
-               {
-                   "SpaceDesc": "4th Coaster",
-                   "SpaceId": "98905",
-                   "Url": "https://appassets.azureedge.net/temp/1e16df18f4484ec5b7d3e72458d0523etest.png"
-               }
-          ]
-       }
-    ]
-    }
+    "text": "{\n\n  \"Sku\": \"my-prp-sku-1\",\n\n  \"Name\": \"Pet Canvas\",\n\n  \"Description\": \"Funny pet canvas\",\n  \"Items\": [\n    {\n      \"ProductId\": 43,\n      \"ProductVariantSku\": \"CanvsWrp-ImgWrp-10x10\",\n      \"Preconfigurations\": [\n        {\n          \"Url\": \"https://placekitten.com/3000/3000\"\n        }\n      ]\n    }\n  ],\n  \"Images\": [\n    {\n      \"Url\": \"https://placekitten.com/3000/3000\"}"
   }
 }
