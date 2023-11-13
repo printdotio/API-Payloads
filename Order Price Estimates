@@ -1,6 +1,6 @@
 {
   "method": "POST",
-  "url": "https://api.print.io/api/v/5/source/api/priceestimate/",
+  "url": "https://api.print.io/api/v/5/source/api/price/",
   "httpVersion": "HTTP/1.1",
   "headers": [
     {
@@ -11,11 +11,11 @@
   "queryString": [
     {
       "name": "recipeid",
-      "value": "f255af6f-9614-4fe2-aa8b-1b77b936d9d6"
+      "value": "40e7d704-6847-4180-9fb6-dfbd1b1ee696"
     }
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"Payment\":{\"CurrencyCode\":\"USD\"},\"ShipToAddress\":{\"Line1\":\"222 broadway\",\"PostalCode\":\"10038\",\"State\":\"NY\",\"CountryCode\":\"US\",\"City\":\"New York\"},\"CouponCode\": [\"coupon_code_1\",\"coupon_code_2\"]}"
+    "text": "{\"ShipToAddress\":{\"Line1\":\"3116OliverStreet\",\"Line2\":\"Arlington\",\"City\":\"Arlington\",\"State\":\"TX\",\"CountryCode\":\"US\",\"PostalCode\":\"33156\"},\"Items\":[{\"SKU\":\"Apparel-DTG-Hoodie-Gildan-18500-XL-DarkGrey-Mens-CF\",\"Quantity\":1,\"ShipType\":\"Standard\"},{\"SKU\":\"Apparel-DTG-TShirt-NL-3600-3XL-Maroon-Mens-CF\",\"Quantity\":1,\"ShipType\":\"Standard\"},{\"SKU\":\"AppleWatchStrap-165-Gold\",\"Quantity\":1,\"ShipType\":\"Standard\"}],\"Payment\":{\"CurrencyCode\":\"USD\",\"PartnerBillingKey\":\"IPrziHCEUoVMTFcqBoeF5up2Mu27DWsEiJAzPo9dOEg=\"}}"
   }
 }
